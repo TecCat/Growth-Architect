@@ -21,7 +21,8 @@
     <!-- Navbar -->
     <nav class="navbar">
         <a href="index.html" class="logo">
-            <svg class="logo-icon" viewBox="0 0 100 100" width="24" height="24" style="margin-right: 10px; vertical-align: middle;">
+            <svg class="logo-icon" viewBox="0 0 100 100" width="24" height="24"
+                style="margin-right: 10px; vertical-align: middle;">
                 <polygon points="50,10 90,45 80,55 50,30 20,55 10,45" fill="var(--accent-secondary)" />
                 <polygon points="50,45 90,80 80,90 50,65 20,90 10,80" fill="var(--accent-secondary)" />
             </svg>
@@ -42,19 +43,52 @@
     </nav>
 
     <!-- Insights Header -->
-    <div style="background-color: var(--bg-secondary); padding: 8rem 5% 4rem; text-align: center; border-bottom: 1px solid var(--card-border);">
+    <div
+        style="background-color: var(--bg-secondary); padding: 8rem 5% 4rem; text-align: center; border-bottom: 1px solid var(--card-border);">
         <h1 style="font-size: 3rem; margin-bottom: 1rem;">Insights & Perspectives</h1>
-        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto;">Deep dives into growth marketing, operational frameworks, and acquisition psychology.</p>
+        <p style="font-size: 1.2rem; max-width: 600px; margin: 0 auto;">Deep dives into growth marketing, operational
+            frameworks, and acquisition psychology.</p>
     </div>
 
-    <!-- Insights Section -->
-    <section class="section" style="min-height: 60vh;">
+    <!-- Featured Insight Section -->
+    <section class="featured-section">
+        <div class="featured-card fade-in">
+            <div class="featured-content">
+                <div class="badge">LATEST INSIGHT</div>
+                <div
+                    style="color: var(--accent-secondary); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; letter-spacing: 1px; text-transform: uppercase;">
+                    Growth Strategy & UGC</div>
+                <h2>📐 Decoding Template-Led Growth: From Ease of Use to Viral UGC Loops</h2>
+                <p>How the world’s fastest-growing SaaS products use templates not just as onboarding shortcuts—but as viral distribution engines that turn every user into a content creator and acquisition channel.</p>
+                <div>
+                    <a href="https://www.notion.so/global-growth-architect/Decoding-Template-Led-Growth-From-Ease-of-Use-to-Viral-UGC-Loops-3482664ac1188058b546dcbcc1374384"
+                        target="_blank" class="btn btn-primary"
+                        style="padding: 1rem 2.5rem; font-size: 1.1rem; border-radius: 50px;">Read Full Article</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Other Insights Grid -->
+    <section class="section insights-grid-section" style="min-height: 40vh;">
+        <div style="margin-bottom: 3rem; text-align: left;">
+            <h2
+                style="font-size: 2rem; border-bottom: 2px solid var(--accent-secondary); display: inline-block; padding-bottom: 0.5rem;">
+                More Perspectives</h2>
+        </div>
         <div class="cards-container">
-            <div class="card fade-in">
+            <div class="card fade-in" style="display: none;">
                 <div class="badge" style="margin-bottom: 1rem;">ASO & User Psychology</div>
-                <h3>🤖 Mastering App Growth via Psychological Triggers</h3>
-                <p>Exploring the ultimate intersection of ASO and performance marketing. Utilizing buyer subconscious
-                    mechanisms to fundamentally boost lower-funnel conversion rates and long-term customer LTV.</p>
+                <h3>🤖 Decoding AI Agent Growth: From "Ease of Use" to the "UGC Viral Loop"</h3>
+                <p>Unlocked the UGC viral loop and the psychological mechanisms that transform AI agent users into passionate advocates and organic growth drivers.</p>
+                <a href="https://www.notion.so/appgrowth-llc/3c7032f14eaa499c8b91bff57d529c2c?v=bba20c9488784365819da691478f7ef9&p=3472664ac11880b9af67c63f7c813468&pm=s"
+                    target="_blank" class="btn btn-outline" style="margin-top: 1.5rem;">Read Article</a>
+            </div>
+            <div class="card fade-in">
+                <div class="badge" style="margin-bottom: 1rem;">Strategy & Frameworks</div>
+                <h3>♾️ Mastering App Growth with Psychological Triggers</h3>
+                <p>I've been captivated by the magic of app growth. If you're anything like me, you've likely wondered
+                    how psychological insights can transform curious users into devoted fans.</p>
                 <a href="https://appgrowth-llc.notion.site/Mastering-App-Growth-with-Psychological-Triggers-43f1dad85077483a8031bf2aec68f8af"
                     target="_blank" class="btn btn-outline" style="margin-top: 1.5rem;">Read Article</a>
             </div>
@@ -98,4 +132,5 @@
         });
     </script>
 </body>
+
 </html>
